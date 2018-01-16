@@ -2,11 +2,11 @@ Docker-Study
 =================================================
 In this study, I will go through the basic docker installation, usage, deployment.
 
-## content table
+## Content Table
 *[Environment Setting](#Environment Setting)
 
 
-# Environment Setting
+### Environment Setting
 
 I am using google cloud in this project, you will get 300 us dollar credit vaild for one year when you sign-up. 
 
