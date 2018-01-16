@@ -2,9 +2,6 @@ Docker-Study
 =================================================
 In this study, I will go through the basic docker installation, usage, deployment.
 
-## 目录
-* [横线](#横线)
-
 
 ## Content Table
 * [Environment Setting](#Environment Setting)
