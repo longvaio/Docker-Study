@@ -90,9 +90,12 @@ docker run hello-world
 ## Basic Concept and operation
 
 Concept:
-> Container
-> Images
-> Repository
+> Container: 
+add introduction here
+> Images:
+add introduction here
+> Repository:
+add introduction here
 
 operation:
 1.  check the base image
@@ -108,5 +111,28 @@ docker images
 ```
 docker run -it centos:latest /bin/bash
 ``` 
+4.  build a imagee
+a.  build within a current image, then check out to become a new one
+introduction goes here
+b.  use dockerfile to build from a previous image 
+dockerfile:
+```
+# base image (build from which image)
+FROM centos:latest
+
+# who build/maintain this (shit)
+MAINTAINER johnlong
+
+# some shit need to be added to the image
+# add additional staff you want in your image to become a new one (in here, install a git in centos)
+RUN yum update
+RUN yum install -y git
+
+# some other shit need to be added to the image
+COPY ./* /usr/share/gitdir/
+```
+build command using the dockerfile
+docker build -t="johnlong/centos:gitdir" -f Dockerfile .
+
 
 
