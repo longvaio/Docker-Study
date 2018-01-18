@@ -1,6 +1,6 @@
 Docker-Study
 =================================================
-In this study, I will go through the basic docker installation, usage, deployment.
+In this study, I will go through the basic docker installation, concept, usage of Docker
 
 
 ## Content Table
