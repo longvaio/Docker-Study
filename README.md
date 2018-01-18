@@ -5,7 +5,7 @@ In this study, I will go through the basic docker installation, usage, deploymen
 
 ## Content Table
 * [Environment Setting](#Environment-Setting)
-* [advanced-steps](#advanced-steps)
+* [Basic Concept and operation](#Basic-Concept-and-operation)
 
 
 
@@ -87,4 +87,26 @@ docker run hello-world
 
 - In testing and development environments, some users choose to use automated convenience scripts to install Docker.
 
-### advanced-steps
+## Basic Concept and operation
+
+Concept:
+> Container
+> Images
+> Repository
+
+operation:
+1.  check the base image
+```
+docker search centos
+docker pull centos
+```
+2.  list current images
+```
+docker images
+```
+3.  start a container (for example, above base image centos
+```
+docker run -it centos:latest /bin/bash
+``` 
+
+
